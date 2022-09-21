@@ -161,5 +161,5 @@ deploy:
   branch: main
 
 - type: git
-  repository: git@e.coding.net:suburbiaxx/suburbiaxx.coding.me/SuburbiaXX.coding.me.git
+  repository: git@gitee.com:suburbiaxx/SuburbiaXX.git
   branch: master
