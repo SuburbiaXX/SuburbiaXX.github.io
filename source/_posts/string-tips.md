@@ -4,8 +4,8 @@ tags:
   - C++
 categories: C++
 description: C++使用String类时应对各种情况的常用函数
-cover: https://s2.loli.net/2022/09/14/4h3Au17vxV6tYPb.jpg
-top_img: https://s2.loli.net/2022/09/14/4h3Au17vxV6tYPb.jpg
+cover: https://pic.imgdb.cn/item/632b25c116f2c2beb15c64cc.jpg
+top_img: https://pic.imgdb.cn/item/632b25c116f2c2beb15c64cc.jpg
 date: 2022-09-14 00:00:00
 ---
 
