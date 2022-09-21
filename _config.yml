@@ -156,10 +156,10 @@ image_minifier:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: 
-    github:
-      git@github.com:SuburbiaXX/SuburbiaXX.github.io.git
-    coding:
-      git@e.coding.net:suburbiaxx/hosting/Blog.git
+- type: git
+  repository: git@github.com:SuburbiaXX/SuburbiaXX.github.io.git
   branch: main
+
+- type: git
+  repository: git@e.coding.net:suburbiaxx/suburbiaxx.coding.me/SuburbiaXX.coding.me.git
+  branch: master
