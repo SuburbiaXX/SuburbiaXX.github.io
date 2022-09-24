@@ -160,6 +160,6 @@ deploy:
   repository: git@github.com:SuburbiaXX/SuburbiaXX.github.io.git
   branch: main
 
-- type: git
-  repository: git@gitee.com:suburbiaxx/SuburbiaXX.git
-  branch: master
+# - type: git
+#   repository: git@gitee.com:suburbiaxx/SuburbiaXX.git
+#   branch: master
