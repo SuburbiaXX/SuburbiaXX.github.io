@@ -1,5 +1,6 @@
 /*所有页面实现毛玻璃特效*/
-#aside-content{
+
+/* #aside-content{
     background: rgba(255,255,255,0);
 }
 
@@ -21,10 +22,10 @@
 #recent-posts > .recent-post-item {
     background: rgba(255,255,255,0.5);
     backdrop-filter: blur(10px);
-}
+} */
 
 /*手机端毛玻璃优化*/
-#sidebar #sidebar-menus.open {
+/* #sidebar #sidebar-menus.open {
     background: rgba(255,255,255,0.5);
     backdrop-filter: blur(10px);
 }
@@ -109,4 +110,85 @@
             rgba(7, 179, 155, 0.1) 86%,
             rgba(109, 186, 130, 0.1) 100%
     );
+} */
+
+#content-inner.layout h1::before {
+    color: #ef50a8 ;
+    margin-left: -1.55rem;
+    font-size: 1.3rem;
+    margin-top: -0.23rem;
 }
+#content-inner.layout h2::before {
+    color: #fb7061 ;
+    margin-left: -1.35rem;
+    font-size: 1.1rem;
+    margin-top: -0.12rem;
+}
+#content-inner.layout h3::before {
+    color: #ffbf00 ;
+    margin-left: -1.22rem;
+    font-size: 0.95rem;
+    margin-top: -0.09rem;
+}
+#content-inner.layout h4::before {
+    color: #a9e000 ;
+    margin-left: -1.05rem;
+    font-size: 0.8rem;
+    margin-top: -0.09rem;
+}
+#content-inner.layout h5::before {
+    color: #57c850 ;
+    margin-left: -0.9rem;
+    font-size: 0.7rem;
+    margin-top: 0.0rem;
+}
+#content-inner.layout h6::before {
+    color: #5ec1e0 ;
+    margin-left: -0.9rem;
+    font-size: 0.66rem;
+    margin-top: 0.0rem;
+}
+
+/* 页脚透明 */
+#footer{
+  background: transparent!important;
+}
+/* 头图透明 */
+#page-header{
+  background: transparent!important;
+}
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 
+#page-header.post-bg:before {
+  background-color: transparent!important;
+}*/
+/* bf更新到4.0.1之后，使用这个*/
+#page-header:not(.not-top-img):before {
+    background-color: transparent!important;
+}
+#footer, #footer:before {
+    background: transparent!important
+}
+
+/*夜间模式伪类遮罩层透明*/
+[data-theme="dark"]
+  #footer::before{
+      background: transparent!important;
+    }
+[data-theme="dark"]
+  #page-header::before{
+    background: transparent!important;
+    }
+
+
+/* css修改鼠标样式 */
+/*指针样式*/
+/* body {
+    cursor: url(https://pic1.imgdb.cn/item/6342824416f2c2beb1806ee2.png),
+        default;
+} */
+/*链接小手样式*/
+/* a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+} */
