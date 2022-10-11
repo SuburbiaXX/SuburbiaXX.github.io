@@ -858,6 +858,8 @@ inject:
     # - <link rel="stylesheet" href="/mycss.css">
     # - <link rel="stylesheet" href="/css/mycss.css">
   bottom:
+    - <script src="/js/weather.js"></script>  # 天气插件
+    - <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>  # 天气插件官方js
     # - <script src="xxxx"></script>
     # - <script async data-pjax src="/js/rdmbkg.js"></script>
 
