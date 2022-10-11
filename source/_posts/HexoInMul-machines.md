@@ -4,8 +4,8 @@ tags:
   - Hexo
 categories: Hexo
 description: 实现在win和mac上都可以写文章
-cover: https://pic1.imgdb.cn/item/6342960216f2c2beb1a193b0.jpg
-top_img: https://pic1.imgdb.cn/item/6342960216f2c2beb1a193b0.jpg
+cover: https://pic1.imgdb.cn/item/6344c1b816f2c2beb18101d2.jpg
+top_img: https://pic1.imgdb.cn/item/6344c1b816f2c2beb18101d2.jpg
 date: 2022-10-09 00:00:00
 ---
 

@@ -1,0 +1,23 @@
+- class_name: 友情链接
+  class_desc: 
+  link_list:
+    - name: szzzy
+      link: https://szzzy.github.io
+      avatar: https://pic.rmb.bdstatic.com/bjh/d4484b84b1984aa8c45224433ba7aa7d.jpeg
+      descr: misc带佬,狂舔捏!!
+      # siteshot就是站点缩略图的链接。
+      siteshot: https://pic1.imgdb.cn/item/6344c0c916f2c2beb17fd71f.png
+
+    - name: Dawn_whisper
+      link: https://dawn-whisper.hack.best
+      avatar: https://dawn-whisper.hack.best/img/avatar.jpg
+      descr: crypto巨佬,请一定带带我!!
+      # siteshot就是站点缩略图的链接。
+      siteshot: https://pic1.imgdb.cn/item/6344c7cd16f2c2beb188b3ad.png
+
+    - name: Epiphyllum_thief
+      link: https://www.cnblogs.com/hhh1109/
+      avatar: http://q1.qlogo.cn/g?b=qq&nk=476523989&s=640
+      descr: 真•强者,带佬救救!!
+      # siteshot就是站点缩略图的链接。
+      siteshot: https://pic1.imgdb.cn/item/6344c9a716f2c2beb18bac62.png
