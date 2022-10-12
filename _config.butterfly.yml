@@ -7,9 +7,9 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  清单||fas fa-list||hide:
-    音乐: /music/ || fas fa-music
-    电影: /movies/ || fas fa-video
+  # 清单||fas fa-list||hide:
+    # 音乐: /music/ || fas fa-music
+    # 电影: /movies/ || fas fa-video
   友链: /link/ || fas fa-link
   # 关于: /about/ || fas fa-heart
 
@@ -92,11 +92,12 @@ index_img: # https://pic1.imgdb.cn/item/6344c20a16f2c2beb1816455.jpg
 # If the banner of page not setting, it will show the top_img (如果没有单独设置就默认这个)
 default_top_img: # https://pic1.imgdb.cn/item/6344c31916f2c2beb182b034.jpg
 
-# The banner image of archive page(归档页面的top_img)
-archive_img: "linear-gradient(20deg,#0062be,#925696,#cc426e,#fb0347)" # 渐变色打法
+# The banner image of archive page(时间轴页面的top_img)
+archive_img: https://pic1.imgdb.cn/item/6346c59716f2c2beb101b6ea.jpg
+# "linear-gradient(20deg,#0062be,#925696,#cc426e,#fb0347)" # 渐变色打法
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: https://pic1.imgdb.cn/item/6346c59716f2c2beb101b6f4.jpg
 
 # The banner image of tag page
 # format:
@@ -105,7 +106,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: https://pic1.imgdb.cn/item/6346c59716f2c2beb101b701.jpg
 
 # The banner image of category page
 # format:
@@ -545,7 +546,7 @@ canvas_fluttering_ribbon:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: true
+  enable: false
   color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
@@ -855,12 +856,12 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="/css/mycss.css">
     # - <link rel="stylesheet" href="/mycss.css">
-    # - <link rel="stylesheet" href="/css/mycss.css">
   bottom:
     - <script src="/js/weather.js"></script>  # 天气插件
     - <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>  # 天气插件官方js
-    - <script async data-pjax src="/js/rdmbkg.js"></script>
+    - <script src="/js/rdmbkg.js"></script> # 随机背景
     # - <script src="xxxx"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
