@@ -90,7 +90,7 @@ disable_top_img: false
 index_img: # https://pic1.imgdb.cn/item/6344c20a16f2c2beb1816455.jpg
 
 # If the banner of page not setting, it will show the top_img (如果没有单独设置就默认这个)
-default_top_img: https://pic1.imgdb.cn/item/6344c31916f2c2beb182b034.jpg
+default_top_img: # https://pic1.imgdb.cn/item/6344c31916f2c2beb182b034.jpg
 
 # The banner image of archive page(归档页面的top_img)
 archive_img: "linear-gradient(20deg,#0062be,#925696,#cc426e,#fb0347)" # 渐变色打法
