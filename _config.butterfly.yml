@@ -421,7 +421,7 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text: Life is full of regrets.
+  custom_text: "Life is full of regrets."
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -729,7 +729,7 @@ translate:
   msgToSimplifiedChinese: "簡"
 
 # Read Mode (閲讀模式)
-readmode: true
+readmode: false
 
 # dark mode
 darkmode:
@@ -859,9 +859,17 @@ inject:
     - <link rel="stylesheet" href="/css/mycss.css">
     # - <link rel="stylesheet" href="/mycss.css">
   bottom:
-    - <script src="/js/weather.js"></script>  # 天气插件
+    - <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script> # jquery
+    - <script src="/js/sakura.js"></script> # 樱花效果(已魔改)
+    - <script src="/js/others.js"></script> # 其他
+    # 雪花效果
+    # - <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.5/source/js/snow1.js"></script>
+    - <script src="/js/weather.js"></script> # 天气插件
     - <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>  # 天气插件官方js
     - <script src="/js/rdmbkg.js"></script> # 随机背景
+    - <script src="https://cdn.jsdelivr.net/gh/xiabo2/CDN@latest/fish.js"></script> # 页脚养鱼
+
+
     # - <script src="xxxx"></script>
 # CDN
 # Don't modify the following settings unless you know how they work

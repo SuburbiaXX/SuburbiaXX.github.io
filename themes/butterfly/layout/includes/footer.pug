@@ -15,3 +15,11 @@
       a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
   if theme.footer.custom_text
     .footer_custom_text!=`${theme.footer.custom_text}`
+
+#jsi-flying-fish-container.container
+   script(src='js/fish.js')
+style.
+   
+       @media only screen and (max-width: 767px){
+       #sidebar_search_box input[type=text]{width:calc(100% - 24px)}
+    }

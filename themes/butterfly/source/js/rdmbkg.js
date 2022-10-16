@@ -12,4 +12,3 @@ if(document.getElementsByClassName("full_page")[0]!=null){
   document.getElementsByClassName("full_page")[0].style.backgroundImage=backimg[bgindex];
   document.getElementById("footer").style.backgroundImage=backimg[bgindex];
 }
-document.getElementById("card-info-btn").style.transition="all .5s";
