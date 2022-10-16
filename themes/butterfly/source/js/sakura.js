@@ -14,10 +14,10 @@ function Sakura(x, y, s, r, fn) {
 }
 Sakura.prototype.draw = function (cxt) {
     cxt.save();
-    var xc = 40 * this.s / 4;
+    // var xc = 40 * this.s / 4;
     cxt.translate(this.x, this.y);
     cxt.rotate(this.r);
-    cxt.drawImage(img, 0, 0, 40 * this.s, 40 * this.s)
+    cxt.drawImage(img, 0, 0, 30 * this.s, 30 * this.s)
     cxt.restore();
 }
 Sakura.prototype.update = function () {
@@ -78,19 +78,21 @@ function getRandom(option) {
             ret = Math.random() * 6;
             break;
         case 'fnx':
-            random = -0.5 + Math.random() * 1;
+            random = -1.5 + Math.random() * 1;
             ret = function (x, y) {
-                return x + 0.5 * random - 1.7;
+                // return x + 0.5 * random - 1.7;
+                return x + 0.1 * random - 0.7;
             };
             break;
         case 'fny':
-            random = 1.5 + Math.random() * 0.7
+            random = 0.2 + Math.random() * 0.7
             ret = function (x, y) {
                 return y + random;
             };
             break;
         case 'fnr':
-            random = Math.random() * 0.03;
+            //旋转速度(大概)
+            random = Math.random() * 0.01;
             ret = function (r) {
                 return r + random;
             };
@@ -111,7 +113,8 @@ function startSakura() {
     document.getElementsByTagName('body')[0].appendChild(canvas);
     cxt = canvas.getContext('2d');
     var sakuraList = new SakuraList();
-    for (var i = 0; i < 50; i++) {
+    // 数量
+    for (var i = 0; i < 15; i++) {
         var sakura, randomX, randomY, randomS, randomR, randomFnx, randomFny;
         randomX = getRandom('x');
         randomY = getRandom('y');
