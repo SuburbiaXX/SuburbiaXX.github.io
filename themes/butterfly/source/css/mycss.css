@@ -197,13 +197,26 @@
 /* css修改鼠标样式 */
 /*指针样式*/
 /* body {
-    cursor: url(https://pic1.imgdb.cn/item/6342824416f2c2beb1806ee2.png),
+    cursor: url(/img/select.cur),
         default;
 } */
 /*链接小手样式*/
 /* a,
+i,
+.fas fa-paste copy-button,
+.fas fa-angle-down scroll-down-effects,
+.fas fa-bars fa-fw,
+span,
+.site-page,
+.fa-fw fas fa-link,
+.fa-fw fas fa-home,
+.fa-fw fas fa-archive,
+.fa-fw fas fa-tags,
+.fa-fw fas fa-folder-open,
+.menus_item,
+#site-name
 img {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    cursor: url(/img/pointer.cur),
         default;
 } */
 
