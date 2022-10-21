@@ -1,3 +1,5 @@
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
 document.addEventListener('DOMContentLoaded', function () {
   let blogNameWidth, menusWidth, searchWidth, $nav
   let mobileSidebarOpen = false
