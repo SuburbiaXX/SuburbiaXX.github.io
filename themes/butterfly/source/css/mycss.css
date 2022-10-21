@@ -195,11 +195,11 @@
 
 
 /* css修改鼠标样式 */
-/*指针样式*/
-/* body {
+/* 指针样式 */
+body {
     cursor: url(/img/select.cur),
         default;
-} */
+}
 /*链接小手样式*/
 /* a,
 i,
