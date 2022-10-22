@@ -198,27 +198,14 @@
 /* 指针样式 */
 body {
     cursor: url(/img/select.cur),
-        default;
+        auto;
 }
 /*链接小手样式*/
-/* a,
-i,
-.fas fa-paste copy-button,
-.fas fa-angle-down scroll-down-effects,
-.fas fa-bars fa-fw,
-span,
-.site-page,
-.fa-fw fas fa-link,
-.fa-fw fas fa-home,
-.fa-fw fas fa-archive,
-.fa-fw fas fa-tags,
-.fa-fw fas fa-folder-open,
-.menus_item,
-#site-name
+a,
 img {
     cursor: url(/img/pointer.cur),
-        default;
-} */
+        auto;
+}
 
 
 /* 滚动条 */
