@@ -2,11 +2,11 @@ WIDGET = {
     "CONFIG": {
       "modules": "201",//改变显示顺序的012是温度、城市、图标  
       "background": "5",
-      "tmpColor": "1b9cfc",
+      "tmpColor": "FFFFFF",
       "tmpSize": "16",
-      "cityColor": "1b9cfc",
+      "cityColor": "FFFFFF",
       "citySize": "16",
-      "aqiColor": "1b9cfc",
+      "aqiColor": "FFFFFF",
       "aqiSize": "16",
       "weatherIconSize": "24",
       "alertIconSize": "18",
