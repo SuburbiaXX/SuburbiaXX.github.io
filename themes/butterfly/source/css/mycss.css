@@ -610,3 +610,12 @@ span.card-archive-list-count {
   left: -20px !important;
   bottom: -30px !important;
 }
+
+#card-info-btn{
+  border-radius: 33px;
+  font-size: 16px;
+  transition: all .5s;
+}
+#card-info-btn:hover{
+  background-color: #2560f5 !important;
+}

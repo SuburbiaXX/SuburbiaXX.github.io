@@ -648,16 +648,16 @@ aside:
   mobile: true # display on mobile
   position: right # left or right
   display:
-    archive: true
-    tag: true
-    category: true
+    archive: false
+    tag: false
+    category: false
   card_author:
     enable: true
     description:
     button:
       enable: true
-      icon: fab fa-github
-      text: Follow Me
+      icon: fa-solid fa-arrow-up-right-from-square
+      text: 关注我 ヾ(≧▽≦)ゝ
       link: https://github.com/SuburbiaXX
   card_announcement:
     enable: false
