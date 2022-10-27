@@ -196,15 +196,20 @@
 
 /* css修改鼠标样式 */
 /* 指针样式 */
+.post-meta-date,
 body {
     cursor: url(/img/select.cur),
-        auto;
+        auto !important;
 }
 /*链接小手样式*/
+.fas,
+.s-sticker,
+.site-name,
 a,
+button,
 img {
     cursor: url(/img/pointer.cur),
-        auto;
+        auto !important;
 }
 
 
@@ -583,6 +588,10 @@ span.card-archive-list-count {
   transition: all 1s;
 }
 
+#web_bg{
+  background-color: linear-gradient(180deg,#f0eae4,#ffffff);
+}
+
 .card-recent-post:hover,
 #card-toc:hover,
 .card-info:hover,
@@ -599,12 +608,16 @@ span.card-archive-list-count {
 .thumbnail img:hover{
   border-radius: 8px !important;
 }
-/* .card-info-data a:hover{
+
+.card-info-data a:hover{
   background-color: #1ecffbd0 !important;
   border-radius: 8px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .2) !important;
   transition: all 1s;
-} */
+}
+.card-info-data a:hover div{
+  color:rgb(0, 0, 0) !important;
+}
 
 .live2d-widget-container{
   left: -20px !important;
