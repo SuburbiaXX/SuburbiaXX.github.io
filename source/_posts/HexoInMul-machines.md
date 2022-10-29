@@ -7,26 +7,27 @@ description: 实现在win和mac上都可以写文章
 cover: https://pic1.imgdb.cn/item/6344c1b816f2c2beb18101d2.jpg
 top_img: https://pic1.imgdb.cn/item/6344c1b816f2c2beb18101d2.jpg
 date: 2022-10-09 00:00:00
+swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 
 
 
-​	起初只在自己的windows上部署了hexo，但是发现背着mac去外面玩耍(bushi)的时候，碰到一些想记录到博客的东西，只能先在mac上写好然后回宿舍传到win上再发布，巨麻烦，故查阅网上一大堆资料，实现在mac上也能直接发布。
+  起初只在自己的windows上部署了hexo，但是发现背着mac去外面玩耍(bushi)的时候，碰到一些想记录到博客的东西，只能先在mac上写好然后回宿舍传到win上再发布，巨麻烦，故查阅网上一大堆资料，实现在mac上也能直接发布。
 
 ## 大体思路
 
-​	同步两个端代码的思路和Github推拉源码思路差不多，发布的时候只需要保证当前在使用的端的文件最新就行。
+  同步两个端代码的思路和Github推拉源码思路差不多，发布的时候只需要保证当前在使用的端的文件最新就行。
 
-​	需要在仓库新建一个分支，让后把它重新作为默认分支。原来部署hexo在github上的分支是master(好像现在很多变成了main)，这时候应该是有且只有一个分支，那么就再新建一个hexo分支(名字随便)，并且设置其为默认分支。
+  需要在仓库新建一个分支，让后把它重新作为默认分支。原来部署hexo在github上的分支是master(好像现在很多变成了main)，这时候应该是有且只有一个分支，那么就再新建一个hexo分支(名字随便)，并且设置其为默认分支。
 
 -   这里需要解释一下，这个hexo分支就是我们以后存放博客源文件的分支，只需要在其上更新内容就行，原来的master分支会因为 `hexo d -g` 指令编译hexo后自动更新。
 
 ## 操作
 
-​	接下来讲讲具体操作。
+  接下来讲讲具体操作。
 
-​	首先，在win上的本地博客根目录里面执行代码。
+  首先，在win上的本地博客根目录里面执行代码。
 
 ```bash
 # 执行代码前，需要删除根目录下和主题目录(theme)下隐藏的 `.git` 文件夹
@@ -40,19 +41,19 @@ git commit -m "blog源文件"
 git push origin hexo	# 文件推到hexo分支
 ```
 
-​	执行完后，此时博客的源文件应该同步到github博客仓库的hexo分支上了。
+  执行完后，此时博客的源文件应该同步到github博客仓库的hexo分支上了。
 
-​	(这里记得在仓库把新的hexo分支作为默认分支)
+  (这里记得在仓库把新的hexo分支作为默认分支)
 
 
 
-​	接着在mac上选个文件夹先把仓库克隆下来。(需要克隆的是hexo分支，所以上面要设置成默认分支)
+  接着在mac上选个文件夹先把仓库克隆下来。(需要克隆的是hexo分支，所以上面要设置成默认分支)
 
 ```bash
 git clone xxx(仓库的地址)
 ```
 
-​	在这个选好的文件夹下重新安装hexo，因为 `.gitignore` 中过滤了 `node_modules\` 所以需要重新部署hexo获取其必要组件。
+  在这个选好的文件夹下重新安装hexo，因为 `.gitignore` 中过滤了 `node_modules\` 所以需要重新部署hexo获取其必要组件。
 
 ```bash
 # 没安装homebrew的话执行下面代码安装
@@ -68,7 +69,7 @@ npm install
 npm install hexo-deployer-git --save
 ```
 
-​	最后在mac上做一些修改，调整版本冲突后的合并策略，执行下面代码
+  最后在mac上做一些修改，调整版本冲突后的合并策略，执行下面代码
 
 ```bash
 # 添加源文件
@@ -82,11 +83,6 @@ git pull origin hexo --allow-unrelated-histories
 git push origin hexo
 ```
 
-​	此时，依次执行 `hexo clean` / `hexo g` / `hexo d -g` 更新博客，无报错就是成功了
+  此时，依次执行 `hexo clean` / `hexo g` / `hexo d -g` 更新博客，无报错就是成功了
 
-
-
-
-
-尽量以后要更新博客前先 `git pull` 一下，然后在 `hexo d -g` 之前，用 `git push` 把修改的推送到仓库
-
+  尽量以后要更新博客前先 `git pull` 一下，然后在 `hexo d -g` 之前，用 `git push` 把修改的推送到仓库
