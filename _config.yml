@@ -164,3 +164,7 @@ deploy:
 # - type: git
 #   repository: git@gitee.com:suburbiaxx/SuburbiaXX.git
 #   branch: master
+
+# 双栏布局
+butterfly_article_double_row:
+  enable: true
