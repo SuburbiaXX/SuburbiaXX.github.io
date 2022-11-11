@@ -76,11 +76,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://pic.imgdb.cn/item/632b25b016f2c2beb15c4f2b.png
+favicon: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://pic.imgdb.cn/item/632b256116f2c2beb15bf40e.jpg
+  img: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -90,14 +90,14 @@ disable_top_img: false
 index_img: # https://pic1.imgdb.cn/item/6344c20a16f2c2beb1816455.jpg
 
 # If the banner of page not setting, it will show the top_img (如果没有单独设置就默认这个)
-default_top_img: # https://pic1.imgdb.cn/item/6344c31916f2c2beb182b034.jpg
+default_top_img: # https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/default_banner_img.jpg
 
 # The banner image of archive page(时间轴页面的top_img)
-archive_img: https://pic1.imgdb.cn/item/6346c59716f2c2beb101b6ea.jpg
+archive_img: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/timeline.jpg
 # "linear-gradient(20deg,#0062be,#925696,#cc426e,#fb0347)" # 渐变色打法
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://pic1.imgdb.cn/item/6346c59716f2c2beb101b6f4.jpg
+tag_img: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/tag.jpg
 
 # The banner image of tag page
 # format:
@@ -106,7 +106,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://pic1.imgdb.cn/item/6346c59716f2c2beb101b701.jpg
+category_img: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/category.jpg
 
 # The banner image of category page
 # format:
@@ -122,7 +122,7 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)文章默认图片
-  default_cover: https://pic1.imgdb.cn/item/6344c31916f2c2beb182b02a.jpg
+  default_cover: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/cover.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -952,29 +952,6 @@ flink_style: volantis # butterfly | volantis | flexcard
 # 侧边栏电子时钟
 # electric_clock
 # see https://anzhiy.cn/posts/fc18.html
-# electric_clock:
-#   enable: true # 开关
-#   priority: 4 #过滤器优先权
-#   enable_page: all # 应用页面
-#   exclude:
-#     # - /posts/
-#     # - /about/
-#   layout: # 挂载容器类型
-#     type: class
-#     name: sticky_layout
-#     index: 0
-#   loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
-#   clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
-#   clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js
-#   ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
-#   qweather_key: 5ff613386cba4f3cbae92dbbd0116b03 # 和风天气key
-#   gaud_map_key: 4229ecf6bb02f386e43c9b5f4a0396a9 # 高得地图web服务key
-#   default_rectangle: false # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气
-#   rectangle: 118.80242,32.06465  # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
-
-
-# electric_clock
-# see https://anzhiy.cn/posts/fc18.html
 electric_clock:
   enable: true # 开关
   priority: 5 #过滤器优先权
@@ -999,8 +976,7 @@ electric_clock:
 # 但是感觉没啥效果
 Lazyload:
   enable: true
-  loadingImg: https://pic1.imgdb.cn/item/635d3b5516f2c2beb1f02aca.gif
-
+  loadingImg: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/loading.gif
 
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/

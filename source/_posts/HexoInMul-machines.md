@@ -4,8 +4,8 @@ tags:
   - Hexo
 categories: Hexo
 description: 实现在win和mac上都可以写文章
-cover: https://pic1.imgdb.cn/item/6344c1b816f2c2beb18101d2.jpg
-top_img: https://pic1.imgdb.cn/item/6344c1b816f2c2beb18101d2.jpg
+cover: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/HexoInMul.jpg
+top_img: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/HexoInMul.jpg
 date: 2022-10-09 00:00:00
 swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---

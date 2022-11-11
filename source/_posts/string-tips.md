@@ -4,8 +4,8 @@ tags:
   - C++
 categories: C++
 description: C++使用String类时应对各种情况的常用函数
-cover: https://pic1.imgdb.cn/item/6344c31916f2c2beb182b00d.jpg
-top_img: https://pic1.imgdb.cn/item/6344c31916f2c2beb182b00d.jpg
+cover: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/string-tips.jpg
+top_img: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/string-tips.jpg
 date: 2022-09-14 00:00:00
 swiper_index: 2 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
