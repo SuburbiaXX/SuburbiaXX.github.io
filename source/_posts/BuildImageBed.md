@@ -2,18 +2,16 @@
 title: Github图床搭建
 tags:
   - 教程
-categories: 教程指北
+categories: 教程
 description: 通过Github+PicGo实现自用图床的搭建，并且用jsdelivr提供的免费CDN加速访问
-cover: >-
-  https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/BuildImageBed/article_cover.jpg
-top_img: >-
-  https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/BuildImageBed/article_cover.jpg
-swiper_index: 1
+cover: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/BuildImageBed/article_cover.jpg
+top_img: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/BuildImageBed/article_cover.jpg
+swiper_index: 5	#置顶轮播图顺序，非负整数，数字越大越靠前
 date: 2022-11-12 00:00:00
 ---
 
 
-本来是用着 [聚合图床](https://www.superbed.cn) ，但是有时候会崩掉，整害怕了，遂即连夜改成用 `Github + PicGO` 的方式搭建自己的图床，参照了网上些许教程，记录一下搭建过程，也相当于一个教程
+本来用着 [聚合图床](https://www.superbed.cn) ，但是有时候会崩掉，整害怕了，遂即连夜改成用 `Github + PicGO` 的方式搭建自己的图床，参照了网上些许教程，记录一下搭建过程，也相当于一个教程
 
 # 1. Github
 

@@ -4,7 +4,7 @@ tags:
   - Hexo
 categories: Hexo
 date: 2022-09-4 00:00:00
-swiper_index: 3 #置顶轮播图顺序，非负整数，数字越大越靠前
+# swiper_index: 3 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

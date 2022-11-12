@@ -19,7 +19,7 @@ menu:
 highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: false # unit: px
 code_word_wrap: true
 
@@ -597,15 +597,15 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size:
-  code-font-size: font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  global-font-size: 
+  code-font-size: font-family:HandEH,-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
   code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
   font_link:
-  font-family:
+  font-family: HandEH,HandCH
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -740,7 +740,7 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: 1
+  autoChangeMode: false
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -857,6 +857,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/mycss.css">
+    - <link rel="stylesheet" href="/css/cursor.css">
     # - <link rel="stylesheet" href="/mycss.css">
   bottom:
     - <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script> # jquery
@@ -869,7 +870,7 @@ inject:
     - <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>  # 天气插件官方js
     - <script src="/js/rdmbkg.js"></script> # 随机背景
     - <script src="https://cdn.jsdelivr.net/gh/xiabo2/CDN@latest/fish.js"></script> # 页脚养鱼
-
+    - <script src="/js/cursor.js"></script>
 
     # - <script src="xxxx"></script>
 # CDN
