@@ -24,27 +24,6 @@
 /* #page-header::before{ */
 /* background: transparent!important; */
 /* } */
-
-
-/* css修改鼠标样式
-/* 指针样式 */
-/* .post-meta-date,
-body {
-    cursor: url(/img/select.cur),
-        auto !important;
-} */
-/*链接小手样式*/
-/* .fas,
-.s-sticker,
-.site-name,
-a,
-button,
-img {
-    cursor: url(/img/pointer.cur),
-        auto !important;
-} */
-
-
 /* 滚动条 */
 ::-webkit-scrollbar {
     width: 8px;
