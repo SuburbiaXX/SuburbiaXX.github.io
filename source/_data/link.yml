@@ -10,7 +10,7 @@
       
     - name: Dawn_whisper
       link: https://dawn-whisper.hack.best
-      avatar: https://dawn-whisper.hack.best/img/avatar.jpg
+      avatar: https://s2.loli.net/2022/11/21/Cac15d4gWNj7BKh.jpg
       descr: crypto巨佬,请一定带带我!!
       # siteshot就是站点缩略图的链接。
       siteshot: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Dawn_whisper.png
@@ -18,6 +18,25 @@
     - name: Epiphyllum_thief
       link: https://www.cnblogs.com/hhh1109/
       avatar: http://q1.qlogo.cn/g?b=qq&nk=476523989&s=640
-      descr: 真•强者,带佬救救!!
+      descr: 真•强者的过去!!
       # siteshot就是站点缩略图的链接。
       siteshot: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Epiphyllum_thief.png
+
+    - name: Epiphyllumthief
+      link: https://Epiphyllumthief.github.io
+      avatar: https://pic.imgdb.cn/item/6379d64816f2c2beb126fdfa.jpg
+      descr: 真•强者的现在!!
+      siteshot: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Epiphyllumthief.png
+
+    - name: Bin
+      link: https://zhaobin.site
+      avatar: https://zhaobin.site/img/head.png
+      descr: 我超，斌！
+      siteshot: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Bin.png
+
+    # Y皇的Blog
+    # - name: 
+    #   link: https://www.cnblogs.com/hyq2/
+    #   avatar: 
+    #   descr:
+    #   siteshot:

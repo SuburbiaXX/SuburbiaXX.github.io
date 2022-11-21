@@ -33,7 +33,7 @@ date: 2022-11-12 00:00:00
 
 点右上角头像，选择 `Settings`，进入后找到 `Developer settings`，然后选择新建一个 `token`
 
-<img src="https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/BuildImageBed/1.2-1(1).png" style="zoom: 30%;" />
+<img src="https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/BuildImageBed/1.2-1.png" style="zoom: 30%;" />
 
 生成一个新的token
 
@@ -82,3 +82,11 @@ date: 2022-11-12 00:00:00
 
 
 
+
+> 以下为 2022.11.21更新
+
+## 3.jsdelivr 缓存刷新方法
+
+​	图床有时候因为个人手欠，上传的图片会出错，然后重新上传，结果图片不更新的情况，这是 `jsdelivr` 的缓存原因，导致不会及时刷新。
+
+​	若要手动刷新，只需要把原来给的链接 `https://cdn.jsdelivr.net/gh/*******` 改成 `https://purge.jsdelivr.net/gh/*******` ，并且用浏览器访问一次链接即可手动刷新。
