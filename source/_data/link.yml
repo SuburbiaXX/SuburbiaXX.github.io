@@ -1,5 +1,66 @@
-- class_name: 友情链接
+- class_name: 代码框架
   class_desc: 
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简洁且高效的博客框架
+      siteshot: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Hexo.png
+
+    - name: Jerry
+      link: https://butterfly.js.org
+      avatar: https://butterfly.js.org/img/avatar.png
+      descr: A Simple and Card UI Design theme for Hexo
+      siteshot: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Butterfly.png
+    
+- class_name: 技术支持
+  class_desc: 感谢以下大佬提供的技术支持!!
+  link_list: 
+    - name: Akilarの糖果屋
+      link: https://akilar.top
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
+      descr: 欢迎光临糖果屋
+      siteshot: https://npm.elemecdn.com/akilar-friends@latest/siteshot/akilar.top.jpg
+    
+    - name: 安知鱼
+      link: https://anzhiy.cn
+      avatar: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/anzhiy.png
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
+
+    - name: 轻笑Chuckle
+      link: https://www.chuckle.top/
+      avatar: https://www.chuckle.top/img/head.webp
+      descr: 宁静致远,倾尘轻笑
+      siteshot: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Chuckle.png
+
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: https://www.fomal.cc/assets/head.jpg
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+
+    - name: 花猪
+      link: https://cnhuazhu.top/butterfly/
+      avatar: https://gcore.jsdelivr.net/gh/CNhuazhu/Image/avatar.jpg
+      descr: 佛系青年
+      siteshot: https://gcore.jsdelivr.net/gh/CNhuazhu/Image/WPcover.png
+
+    - name: 小冰博客
+      link: https://zfe.space
+      avatar: https://zfe.space/images/headimage.png
+      descr: 做个有梦想的人！
+      siteshot: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/zfe.png
+
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://img.zhheo.com/i/2022/08/19/62ff32fa28da1.png
+      descr: 分享设计与科技生活
+      siteshot: https://img.zhheo.com/i/2022/08/19/62ff337cdeaa0.png
+
+
+- class_name: 友情链接
+  class_desc: 感谢陪伴!!
   link_list:
     - name: szzzy
       link: https://szzzy.github.io
@@ -10,16 +71,14 @@
       
     - name: Dawn_whisper
       link: https://dawn-whisper.hack.best
-      avatar: https://s2.loli.net/2022/11/21/Cac15d4gWNj7BKh.jpg
+      avatar: https://dawn-whisper.hack.best/img/avatar.jpg
       descr: crypto巨佬,请一定带带我!!
-      # siteshot就是站点缩略图的链接。
       siteshot: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Dawn_whisper.png
 
     - name: Epiphyllum_thief
       link: https://www.cnblogs.com/hhh1109/
-      avatar: http://q1.qlogo.cn/g?b=qq&nk=476523989&s=640
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=476523989&s=640
       descr: 真•强者的过去!!
-      # siteshot就是站点缩略图的链接。
       siteshot: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Epiphyllum_thief.png
 
     - name: Epiphyllumthief
