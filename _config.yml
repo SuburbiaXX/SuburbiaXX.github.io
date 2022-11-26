@@ -120,15 +120,18 @@ live2d:
 
 # hexo-all-minifier(静态文件压缩,加快访问)
 all_minifier: true
+
 # html压缩
 html_minifier:
   enable: true
   ignore_error: false
+  silent: false
   exclude:
 
 # css压缩
 css_minifier:
   enable: true
+  silent: false
   exclude:
     - '*.min.css'
     
@@ -136,8 +139,10 @@ css_minifier:
 js_minifier:
   enable: true
   mangle: true
+  silent: false
+  output:
   compress:
-  exclude:
+  exclude: 
     - '*.min.js'
 js_concator:
   enable: false
@@ -153,17 +158,14 @@ image_minifier:
   optimizationLevel: 2
   pngquant: false
   progressive: false
+  silent: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-- type: git
+  type: git
   repository: git@github.com:SuburbiaXX/SuburbiaXX.github.io.git
   branch: main
-
-# - type: git
-#   repository: git@gitee.com:suburbiaxx/SuburbiaXX.git
-#   branch: master
 
 # 双栏布局
 butterfly_article_double_row:
