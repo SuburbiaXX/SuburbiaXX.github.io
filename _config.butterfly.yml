@@ -80,7 +80,7 @@ favicon: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/Favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/avatar.jpg
+  img: https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/avatar1.jpg
   effect: false
 
 # Disable all banner image
