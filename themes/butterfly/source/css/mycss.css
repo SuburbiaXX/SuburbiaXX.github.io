@@ -454,7 +454,7 @@ span.card-archive-list-count {
 /* 加载时头像 */
 /* loading.styl / loading.pug 被修改 */
 .loading-img {
-  background: url(https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/avatar.jpg) no-repeat center center;
+  background: url(https://cdn.jsdelivr.net/gh/SuburbiaXX/ImageBed@main/src/avatar1.jpg) no-repeat center center;
   background-size: cover;
 }
 
